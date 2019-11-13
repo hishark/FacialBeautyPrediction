@@ -53,9 +53,9 @@ One line of the works follows the classic pattern recognition process, which con
 
 The related hand-crafted feature derived from visual recognition includes the geometric fea- tures, like the geometric ratios and landmark distances, and the texture features, like the Gabor/SIFT-like features. 
 - geometric features 几何特征 
-- geometric ratios 
-- landmark distances
-- texture features
+- geometric ratios 几何比例
+- landmark distances 特征点距离
+- texture features 纹理特征
 
 The hierarchial structure of the deep learning model allows to build an end-to-end FBP system that automatically learns both the representation and the predictor of facial beauty simultaneously from the data.
 
@@ -86,6 +86,8 @@ All the images are labeled with beauty scores ranging from [1, 5] by totally 60 
  To allow geometric analysis of facial beauty, 86 facial landmarks are located to the significant facial components of each images.
  - geometric analysis
  - facial landmarks
+
+A GUI landmarks location system is developed, where the original location of the landmarks are initialized by the active shape model (ASM) trained by the SCUT-FBP dataset. Then, the detected landmarks by ASM are modified manually by volunteers to ensure the accuracy.
 ### 3. Benckmark Analysis of the SCUT-FBP5500
 We made benchmark analysis of the beauty scores, labelers and face landmarks of the SCUT-FBP5500 with different gender and races, including Asian female (AF), Asian male (AM), Caucasian female (CF) and Caucasian male (CM).
 #### 3.1 Distribution of Beauty Scores
@@ -193,7 +195,7 @@ the accuracy of all the 5-fold cross validation is slightly higher than the resu
 
 data augmentation techniques may further improve the performance of the deep FBP model, which merits exploring in the future.
 ### 6. Conclusion
-就一小段总结，再次夸了一波SCUT-FBP550哈哈哈v。
+就一小段总结，再次夸了一波SCUT-FBP550。
 ## References
 [机器学习](https://zh.wikipedia.org/wiki/机器学习) 
 
@@ -216,3 +218,23 @@ data augmentation techniques may further improve the performance of the deep FBP
 [绝对误差](https://baike.baidu.com/item/%E7%BB%9D%E5%AF%B9%E8%AF%AF%E5%B7%AE)
 
 [均方根误差](https://baike.baidu.com/item/%E5%9D%87%E6%96%B9%E6%A0%B9%E8%AF%AF%E5%B7%AE)
+
+[hand-craft](https://blog.csdn.net/qq_22194315/article/details/82704776)
+
+[MacOS安装caffe](https://zhuanlan.zhihu.com/p/46930024)
+
+[CNN入门讲解：什么是微调（Fine Tune）？](https://zhuanlan.zhihu.com/p/35890660)
+
+[active shape model (ASM)](http://ice.dlut.edu.cn/lu/ASM.html)
+
+[ASM](https://blog.csdn.net/carson2005/article/details/8194317)
+
+[Python之Sklearn使用教程](https://blog.csdn.net/xiaoyi_eric/article/details/79952325)
+
+[sklearn-docs](https://sklearn.apachecn.org/docs/0.21.3/50.html)
+
+[sklearn-user-guide](https://scikit-learn.org/stable/user_guide.html)
+
+[PCA主成分分析提取特征脸](https://blog.csdn.net/u010975589/article/details/88025494)
+
+[PCA](https://blog.csdn.net/weixin_42001089/article/details/79989788)
