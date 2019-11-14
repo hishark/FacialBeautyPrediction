@@ -237,4 +237,14 @@ data augmentation techniques may further improve the performance of the deep FBP
 
 [PCA主成分分析提取特征脸](https://blog.csdn.net/u010975589/article/details/88025494)
 
-[PCA](https://blog.csdn.net/weixin_42001089/article/details/79989788)
+[PCA-1](https://blog.csdn.net/weixin_42001089/article/details/79989788)
+
+[PCA-2](https://blog.csdn.net/liangjun_feng/article/details/78664820)
+
+[PCA-3](https://blog.csdn.net/u010975589/article/details/88025494)
+
+[python调用resnet模型对人脸图片进行特征提取全连接层特征向量](https://blog.csdn.net/zuqiutxy/article/details/71156593)
+
+[数据预处理（python）](https://www.jianshu.com/p/4f3d9a34d246)
+
+[numpy tutorial](https://www.runoob.com/numpy/numpy-tutorial.html)
