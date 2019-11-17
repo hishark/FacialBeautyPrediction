@@ -248,3 +248,15 @@ data augmentation techniques may further improve the performance of the deep FBP
 [数据预处理（python）](https://www.jianshu.com/p/4f3d9a34d246)
 
 [numpy tutorial](https://www.runoob.com/numpy/numpy-tutorial.html)
+
+[python实现正态分布](https://www.cnblogs.com/LeoLRH/articles/10335804.html)
+
+[机器学习-线性回归预测房价模型demo](https://www.jianshu.com/p/928b95645757)
+
+[人脸识别的简要介绍（附实例、Python代码）](https://www.sohu.com/a/274424930_197042)
+
+[face_recognition](https://github.com/ageitgey/face_recognition)
+
+[sklearn.model_selection.KFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html)
+
+[sklearn.linear_model.LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
