@@ -3,11 +3,11 @@
 - [SCUT-FBP5500: A Diverse Benchmark Dataset for Multi-Paradigm Facial Beauty Prediction](https://arxiv.org/abs/1801.06345)
 
 ## Requirements
-- Python 2.7
+- Python
 - Caffe
 - Numpy
 - Matplotlib
-- Scikit-image
+- scikit-learn
 ## References
 - [SCUT-FBP5500-Database-Release](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release)
 
